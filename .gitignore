@@ -1,2 +1,5 @@
 /target
+
+# nix flakes && direnv && devenv
 .devenv
+.direnv
