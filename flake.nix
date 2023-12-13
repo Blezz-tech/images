@@ -29,12 +29,7 @@
               inherit inputs pkgs;
               modules = [
                 {
-                  # https://devenv.sh/reference/options/
-                  packages = [ pkgs.hello ];
-
-                  enterShell = ''
-                    hello
-                  '';
+                  languages.rust.enable = true;
                 }
               ];
             };
